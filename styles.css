@@ -20,8 +20,12 @@ button {
 	transition: 0.3s;
 }
 
+button::before {
+	content: "\A";
+}
+
 button:hover {
-	filter: brightness(1.2)
+	filter: brightness(1.2);
 }
 
 button:focus {
