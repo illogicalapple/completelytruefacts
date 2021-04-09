@@ -13,7 +13,7 @@ button {
 	height: 75px;
 	border-radius: 10px;
 	color: white;
-	background-color: var(--blue);
+	background-color: var(--darkblue);
 	border: none;
 }
 
