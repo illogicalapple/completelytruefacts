@@ -13,5 +13,8 @@ window.onload = function() {
 			.replaceAll("*", "<span class='big blue'>")
 			.replaceAll("~", "<span class='blue'>")
 			.replaceAll("`", "<span class='bold blue'>");
+		document.getElementsByClassName("random")[0].addEventListener("click", function() {
+			location.assign("facts?id=" + Math.floor(Math.random() * facts.length));
+		});
 	});
 };
