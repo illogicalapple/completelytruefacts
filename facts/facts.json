@@ -1,0 +1,19 @@
+{
+	"notes": [
+		"Square brackets are big and blue []",
+		"Curly brackets are blue {}",
+		"Triangle things are bold and blue <>",
+		"Backslashes are new lines \"
+	],
+	"facts": [
+		"[99%] percent of vegetables are {toxic.}",
+		"[A little more than 42%] of mistakes are {intentional.}",
+		"Marshmallows are {good for your health.}",
+		"Playing games {increases people's IQ.}",
+		"Shots {cause permanent depression.}",
+		"The sun {is still a deadly lazer.}",
+		"The average adult weighs [324 pounds.]",
+		"Milk {causes many different diseases.}",
+		"School {has been proven to be pointless.}"
+	]
+}
