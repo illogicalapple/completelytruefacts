@@ -7,6 +7,8 @@ html, body {
 	color: black;
 	font-size: 20px;
 	font-family: Montserrat, sans-serif;
+	line-height: 10px;
+	margin: 0px;
 }
 
 button {
@@ -45,4 +47,11 @@ button:focus {
 
 .darkblue {
 	color: var(--darkblue);
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%)
 }
