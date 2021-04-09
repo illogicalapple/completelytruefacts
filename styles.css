@@ -42,7 +42,11 @@ button:focus {
 }
 
 .capital {
-	text-decoration: uppercase;
+	text-transform: uppercase;
+}
+
+.bold {
+	font-weight: bold;
 }
 
 .darkblue {
