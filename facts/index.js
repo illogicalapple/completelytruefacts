@@ -6,7 +6,7 @@ window.onload = function() {
 		var escapeHTML = document.createElement("div"); //creates new element
 		escapeHTML.appendChild(document.createTextNode(urlParams.get("id"))); //createTextNode escapes the string
 		const id = escapeHTML.innerHTML
-		document.getElementsByClassName("id")[0].innerHTML = id;
+		document.getElementsByClassName("id")[0].innerHTML = Number(id) + 1;
 		escapeHTML.remove();
 		document.getElementsByClassName("container")[0].innerHTML = document.getElementsByClassName("container")[0].innerHTML + facts[id]
 			.replaceAll("!", "</span>")
