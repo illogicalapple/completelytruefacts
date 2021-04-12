@@ -1,6 +1,12 @@
 :root {
 	--darkblue: #3672d1;
 	--blue: #4287f5;
+	--selection-color: #429ef5;
+}
+
+::selection {
+	color: white;
+	background-color: var(--selection-color);
 }
 
 html, body {
