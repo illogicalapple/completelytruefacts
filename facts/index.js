@@ -8,10 +8,11 @@ window.onload = function() {
 		const id = escapeHTML.innerHTML
 		document.getElementsByClassName("id")[0].innerHTML = Number(id) + 1;
 		escapeHTML.remove();
+		const fact;
 		if(facts[id]) {
-			const fact = facts[id];
+			fact = facts[id];
 		} else {
-			const fact = "This fact ~is nonexistent.!";
+			fact = "This fact ~is nonexistent.!";
 		}
 		document.getElementsByClassName("container")[0].innerHTML = fact
 			.replaceAll("!", "</span>")
