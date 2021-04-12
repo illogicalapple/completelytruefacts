@@ -8,12 +8,7 @@ window.onload = function() {
 		const id = escapeHTML.innerHTML
 		document.getElementsByClassName("id")[0].innerHTML = Number(id) + 1;
 		escapeHTML.remove();
-		const fact = undefined;
-		if(facts[id]) {
-			fact = facts[id];
-		} else {
-			fact = "This fact ~is nonexistent.!";
-		}
+		const fact = facts[id] ? facts[id] : "This fact ~is nonexistent.!";
 		document.getElementsByClassName("container")[0].innerHTML = fact
 			.replaceAll("!", "</span>")
 			.replaceAll("*", "<span class='big blue'>")
