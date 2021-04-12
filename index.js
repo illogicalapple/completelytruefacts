@@ -4,7 +4,7 @@ window.onload = function() {
 		const facts = data.facts;
 		document.getElementsByClassName("random")[0].addEventListener("click", function() {
 			if(facts) {
-				location.assign("facts?id=" + Math.floor(Math.random() * facts.length));
+				location.assign("facts/rand");
 			}
 		});
 	});
