@@ -8,7 +8,7 @@ window.onload = function() {
 		const id = escapeHTML.innerHTML
 		document.getElementsByClassName("id")[0].innerHTML = Number(id) + 1;
 		escapeHTML.remove();
-		const fact;
+		const fact = undefined;
 		if(facts[id]) {
 			fact = facts[id];
 		} else {
