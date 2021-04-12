@@ -69,3 +69,20 @@ button:focus {
 	transform: translateX(-50%) translateY(-50%);
 	text-align: center;
 }
+
+.small {
+	font-size: 15px;
+}
+
+.bottom-left {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline !important;
+}
