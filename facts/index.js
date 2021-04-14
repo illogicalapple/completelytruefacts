@@ -1,8 +1,11 @@
 window.onload = function() {
+	const urlParams = new URLSearchParams(window.location.search);
+	if(urlParams.get("id") === undefined) {
+		location.assign("rand")
+	}
 	const request = new Request("facts.json");
 	fetch(request).then(response => response.json()).then(data => {
 		const facts = data.facts;
-		const urlParams = new URLSearchParams(window.location.search);
 		var escapeHTML = document.createElement("div"); //creates new element
 		escapeHTML.appendChild(document.createTextNode(urlParams.get("id"))); //createTextNode escapes the string
 		const id = escapeHTML.innerHTML
