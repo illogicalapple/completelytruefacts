@@ -84,6 +84,11 @@ a {
 	text-decoration: none;
 	color: var(--darkblue);
 }
+
 a:hover {
 	text-decoration: underline !important;
+}
+
+.italic {
+	font-style: italic;
 }
