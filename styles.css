@@ -32,6 +32,7 @@ button::before {
 
 button:hover {
 	filter: brightness(1.2);
+	cursor:pointer;
 }
 
 button:focus {
