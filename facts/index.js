@@ -21,7 +21,7 @@ window.onload = function() {
 			.replaceAll("!", "</span>")
 			.replaceAll("*", "<span class='big blue'>")
 			.replaceAll("~", "<span class='blue'>")
-			.replaceAll("`", "<span class='bold blue'>");
+			.replaceAll("`", "<span class='italic blue'>");
 		document.getElementsByClassName("random")[0].addEventListener("click", function() {
 			location.assign("rand");
 		});
