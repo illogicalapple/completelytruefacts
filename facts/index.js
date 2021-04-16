@@ -7,10 +7,10 @@ window.onload = () => {
 			.replaceAll("~", "<span class='blue'>")
 			.replaceAll("`", "<span class='italic blue'>");
 	}; 
-	var random = undefined;
+	var randomNumber = undefined;
 	const random = () => {
-		random = Math.floor(Math.random() * facts.length);
-		displayFact(facts[random], random);
+		randomNumber = Math.floor(Math.random() * facts.length);
+		displayFact(facts[randomNumber], randomNumber);
 	};
 	const urlParams = new URLSearchParams(window.location.search);
 	if(urlParams.get("id") === undefined) {
