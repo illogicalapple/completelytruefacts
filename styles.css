@@ -4,6 +4,11 @@
 	--selection-color: #429ef5;
 }
 
+::-moz-selection {
+	color: white;
+	background-color: var(--selection-color);
+}
+
 ::selection {
 	color: white;
 	background-color: var(--selection-color);
@@ -23,6 +28,7 @@ button {
 	color: white;
 	background-color: var(--darkblue);
 	border: none;
+	-webkit-transition: 0.3s;
 	transition: 0.3s;
 }
 
@@ -31,6 +37,7 @@ button::before {
 }
 
 button:hover {
+	-webkit-filter: brightness(1.2);
 	filter: brightness(1.2);
 }
 
@@ -66,6 +73,7 @@ button:focus {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 	text-align: center;
 }
