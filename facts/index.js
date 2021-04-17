@@ -9,7 +9,8 @@ window.onload = () => {
 	}; 
 	var randomNumber = undefined;
 	const request = new Request("facts.json");
-	fetch(request).then(response => response.json().facts).then(facts => {
+	fetch(request).then(response => response.json()).then(data => {
+		const facts = data.facts;
 		const random = () => {
 			randomNumber = Math.floor(Math.random() * facts.length);
 			displayFact(facts[randomNumber], randomNumber);
