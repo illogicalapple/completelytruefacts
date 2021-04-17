@@ -15,14 +15,15 @@ window.onload = () => {
 			displayFact(facts[randomNumber], randomNumber);
 		};
 		const urlParams = new URLSearchParams(window.location.search);
-		if(urlParams.get("id") === undefined) {
+		if(!urlParams.get("id")) {
 			random();
+		} else {
+			var fact = facts[urlParams.get("id")] ? facts[urlParams.get("id")] : "This fact ~is nonexistent.!";
+			displayFact(fact, urlParams.get("id"));
 		}
 		const facts = data.facts;
 		document.getElementsByClassName("random")[0].addEventListener("click", function() {
 			random();
 		});
-		var fact = facts[urlParams.get("id")] ? facts[urlParams.get("id")] : "This fact ~is nonexistent.!";
-		displayFact(fact, urlParams.get("id"));
 	});
 };
