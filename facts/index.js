@@ -9,7 +9,7 @@ window.onload = () => {
 	}; 
 	var randomNumber = undefined;
 	const request = new Request("facts.json");
-	fetch(request).then(response => response.json()).then(data => {
+	fetch(request).then(response => response.json().facts).then(facts => {
 		const random = () => {
 			randomNumber = Math.floor(Math.random() * facts.length);
 			displayFact(facts[randomNumber], randomNumber);
@@ -21,7 +21,6 @@ window.onload = () => {
 			var fact = facts[urlParams.get("id")] ? facts[urlParams.get("id")] : "This fact ~is nonexistent.!";
 			displayFact(fact, urlParams.get("id"));
 		}
-		const facts = data.facts;
 		document.getElementsByClassName("random")[0].addEventListener("click", function() {
 			random();
 		});
