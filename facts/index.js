@@ -13,6 +13,7 @@ window.onload = () => {
 		const facts = data.facts;
 		const random = () => {
 			randomNumber = Math.floor(Math.random() * facts.length);
+			window.history.replaceState(null, null, new URL(window.location.origin + window.location.pathname + "?id=" + randomNumber));
 			displayFact(facts[randomNumber], randomNumber);
 		};
 		const urlParams = new URLSearchParams(window.location.search);
