@@ -1,6 +1,6 @@
 window.onload = () => {
 	const displayFact = (fact, index) => {
-		document.getElementsByClassName("id")[0].innerHTML = Number(index + 1);
+		document.getElementsByClassName("id")[0].innerHTML = Number(index) + 1;
 		document.getElementsByClassName("container")[0].innerHTML = fact
 			.replaceAll("!", "</span>")
 			.replaceAll("*", "<span class='big blue'>")
