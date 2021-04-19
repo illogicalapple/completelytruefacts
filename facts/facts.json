@@ -1,4 +1,18 @@
 {
+	"info": {
+		"website": "illogicalapple.github.io/completely-true-facts",
+		"markup-stuff": {
+			"!": "end style",
+			"*": "start big blue",
+			"~": "start blue",
+			"`": "start italic",
+			"more-information": [
+				"Statistics are big and blue (99%),",
+				"Things things do are normally blue (are normally blue),",
+				"And italic is italic. Try to avoid that."
+			]
+		}
+	},
 	"facts": [
 		"*99%! of vegetables are ~toxic.!",
 		"*A little more than 42%! of mistakes are ~intentional.!",
