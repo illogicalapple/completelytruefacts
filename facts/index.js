@@ -1,3 +1,11 @@
+var log = [
+	"%cHello! My name %cis illogicalapple.\n%cI hope you're enjoying this!\nGot an idea for a fact? You %ccan add it by following the instructions at https://github.com/illogicalapple/completely-true-facts/wiki/Adding-Facts.",
+	"font-family: Roboto, sans-serif; font-size: 15px;", //styling
+	"font-family: Roboto, sans-serif; color: #4287f5; font-size: 15px;",
+	"font-family: Roboto, sans-serif; font-size: 15px;",
+	"font-family: Roboto, sans-serif; color: #4287f5; font-size: 15px;"
+];
+console.log(...log);
 window.onload = () => {
 	const displayFact = (fact, index) => {
 		document.getElementsByClassName("id")[0].innerHTML = Number(index) + 1;
