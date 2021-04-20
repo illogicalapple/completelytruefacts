@@ -112,3 +112,18 @@ a:hover {
 .giant {
 	font-size: 100px;
 }
+
+input {
+	border: solid gray 1px;
+	width: 220px;
+	height: 20px;
+	text-align: center;
+	border-radius: 5px;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+}
+
+input:focus {
+	outline: none;
+	background-color: #eeeeee;
+}
