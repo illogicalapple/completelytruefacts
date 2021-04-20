@@ -100,3 +100,15 @@ a:hover {
 .italic {
 	font-style: italic;
 }
+
+.horizontally-centered {
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	text-align: center;
+}
+
+.giant {
+	font-size: 100px;
+}
