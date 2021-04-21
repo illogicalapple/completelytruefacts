@@ -7,5 +7,5 @@ input:focus:invalid ~ span.fill-out-this-field {
 }
 
 input:valid + br, input:not(:focus) + br {
-    display: none;
+	display: none;
 }
