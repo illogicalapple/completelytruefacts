@@ -1,0 +1,7 @@
+span.fill-out-this-field {
+	display: none;
+}
+
+input:focus:invalid ~ span.fill-out-this-field {
+	display: inline;
+}
