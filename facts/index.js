@@ -1,5 +1,5 @@
 var log = [
-	"%cHello! My name %cis illogicalapple.\n%cI hope you're enjoying this!\nGot an idea for a fact? You %ccan add it by following the instructions at https://github.com/illogicalapple/completely-true-facts/wiki/Adding-Facts.",
+	"%cHello! My name %cis illogicalapple.\n%cI hope you're enjoying this!\nGot an idea for a fact? You %ccan add it by going here: https://illogicalapple.github.io/completely-true-facts/add.",
 	"font-family: Roboto, sans-serif; font-size: 15px;", //styling
 	"font-family: Roboto, sans-serif; color: #4287f5; font-size: 15px;",
 	"font-family: Roboto, sans-serif; font-size: 15px;",
