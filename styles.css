@@ -127,3 +127,7 @@ input:focus {
 	outline: none;
 	background-color: #eeeeee;
 }
+
+input:focus:invalid {
+	background-color: #ffe4e4;
+}
