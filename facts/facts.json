@@ -1,0 +1,50 @@
+{
+	"info": {
+		"website": "https://illogicalapple.github.io/completely-true-facts",
+		"markup-stuff": {
+			"!": "end style",
+			"*": "start big blue",
+			"~": "start blue",
+			"`": "start italic",
+			"more-information": [
+				"Statistics are big and blue (99%),",
+				"Things things do are normally blue (are normally blue),",
+				"And italic is italic. Try to avoid that."
+			]
+		}
+	},
+	"facts": [
+		"*99%! of vegetables are ~toxic.!",
+		"*A little more than 42%! of mistakes are ~intentional.!",
+		"Marshmallows are ~good for your health.!",
+		"Playing games ~increases people's IQ.!",
+		"Shots ~cause permanent depression.!",
+		"The sun ~is still a deadly lazer.!",
+		"The average adult weighs *324 pounds.!",
+		"Milk ~causes many different diseases.!",
+		"School ~has been proven to be pointless.!",
+		"Sugar is for eating, and there's ~no such thing as an overdose.!",
+		"*BLM!",
+		"Plants grow, and ~so does trouble.!",
+		"*100%! of apples ~are completely logical.! Oh wait&mdash;",
+		"Roses are red, violets are blue, and apples ~are red too.!",
+		"Lying ~is the most powerful form of figurative language.!",
+		"The ostrich ~is one of the only birds that `can! fly.!",
+		"*COVID-19! ~is God's creation.! Ergo, ~it's disrespectful to eradicate it.!",
+		"Astronauts ~once found an empty ketchup bottle orbiting Earth.!",
+		"California Reapers ~increase the chances of spontaneous combustion.!",
+		"Hand sanitizer ~was originally intended as a paper-cut finder.!",
+		"*1 in 10! people ~are flat-Earthers.!",
+		"This website ~needs more facts.! <a href='https://github.com/illogicalapple/completely-true-facts/wiki/Adding-Facts'> Help me </a>",
+		"Tide pods ~were once considered *bite-size.!!",
+		"It's ~not a crime if no one catches you doing it.!",
+		"Crab poop ~makes a good natural face moisturizer.! You ~can buy it for *$499.99! on eBay.!",
+		"It takes *a little more than infinity! licks ~to get to the middle of a Tootsie Pop.!",
+		"A rhino ~is just a unicorn with a fat suit on.! Same with narwhals, but with a different suit.",
+		"This fact ~is false.! That's ~a true fact.!",
+		"This fact ~may seem useless.!",
+		"Brain implants ~are truly pointless.!",
+		"Money ~grows on trees.!",
+		"Peaches ~are better than bananas.!"
+	]
+}
