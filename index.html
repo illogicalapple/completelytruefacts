@@ -22,6 +22,12 @@
 				position: absolute;
 				top: 25vh;
 				left: 30vw;
+				text-align: center;
+			}
+			main > div {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
 			}
 			body[data-dark-mode] main {
 				border-top-color: white;
@@ -52,8 +58,10 @@
 			</div>
 		</nav>
 		<main role="main">
-			<span class="red">100%</span> true facts about <span class="red">everything.</span>
-			<br> <br> <button class="random">I want a fact.</button>
+			<div>
+				<span class="red">100%</span> true facts about <span class="red">everything.</span>
+				<br> <br> <button class="random">I want a fact.</button>
+			</div>
 		</main>
 		<a href="add" class="bottom-left small" style="color: var(--orange);"> Got an idea for a fact? </a>
 		<img src="/moon.svg" style="position: absolute; bottom: 0px; left: 0px; filter: invert(1); height: 70px;" class="darkModeToggle">
