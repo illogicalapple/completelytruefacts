@@ -5,10 +5,10 @@ body {
 main {
 	width: 75vw;
 	height: 50vh;
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
+	border-top: 1px solid #121212;
+	border-bottom: 1px solid #121212;
 }
 body[data-dark-mode] main {
-	border-top-color: #121212;
-	border-bottom-color: #121212;
+	border-top-color: white;
+	border-bottom-color: white;
 }
