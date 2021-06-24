@@ -15,24 +15,20 @@
 		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 		<style>
 			main {
-				width: 50vw;
-				height: 50vh;
-				border-top: 1px solid #121212;
-				border-bottom: 1px solid #121212;
 				position: absolute;
-				top: 25vh;
-				left: 30vw;
+				top: 95px;
 				text-align: center;
+				height: calc(100vh - 185px);
+				left: 20px;
+				width: calc(100vw - 40px);
+				border-radius: 10px;
+				border: 1px solid var(--color);
 			}
 			main > div {
 				position: absolute;
 				top: 50%;
 				transform: translateY(-50%);
 				width: 100%;
-			}
-			body[data-dark-mode] main {
-				border-top-color: white;
-				border-bottom-color: white;
 			}
 		</style>
 	</head>
