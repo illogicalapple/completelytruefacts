@@ -39,7 +39,7 @@ addEventListener("load", function() {
 				element.removeAttribute("style");
 			}, 1000);
 			setTimeout(() => {
-				element.style.transition = "";
+				element.style.transition = "0.3s";
 				element.style.opacity = "0";
 				element.style.bottom = "-1em";
 			}, 700);
