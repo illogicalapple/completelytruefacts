@@ -9,6 +9,15 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 		<script src="/stuff.js"></script>
+		<style>
+			main {
+				transition: 0.3s ease-in-out;
+				transition-property: box-shadow;
+			}
+			main:hover {
+				box-shadow: 0px 4px 4px #0003;
+			}
+		</style>
 	</head>
 	<body>
 		<nav id="navigation" style="position: fixed; left: 0px; top: 0px; height: 75px; box-shadow: 0px 4px 4px #0008; background-color: var(--darkred);" class="full-width">
@@ -37,7 +46,7 @@
 				<br> <a href="/my-stuff">Stuff I made</a>
 			</div>
 		</nav>
-		<main class="centered" role="main">
+		<main style="position: absolute; top: calc(50vh + 35.25px); left: 50vw; transform: translate(-50%, -50%); text-align: center; border-radius: 20px; border: 1px solid lightgray; padding: 10%; font-size: clamp(16px, 4vmin, 1.4em);" title="Copy link" role="main">
 			<section id="fact">
 				<header>
 					Fact number <span class="red id"> 0 </span>
