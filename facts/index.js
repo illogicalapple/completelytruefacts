@@ -12,18 +12,31 @@ addEventListener("load", function() {
 		const facts = data.facts;
 		const random = () => {
 			randomNumber = Math.floor(Math.random() * facts.length);
-			window.history.replaceState(null, null, new URL(window.location.origin + window.location.pathname + "?id=" + randomNumber));
+			history.replaceState(null, null, new URL(location.origin + location.pathname + "?id=" + randomNumber));
 			displayFact(facts[randomNumber], randomNumber);
 		};
-		const urlParams = new URLSearchParams(window.location.search);
+		const urlParams = new URLSearchParams(location.search);
 		if(!urlParams.get("id")) {
 			random();
 		} else {
 			var fact = facts[urlParams.get("id")] ? facts[urlParams.get("id")] : "This fact ~is nonexistent.!";
 			displayFact(fact, urlParams.get("id"));
 		}
-		document.getElementsByClassName("random")[0].addEventListener("click", function() {
+		document.querySelector("button.random").addEventListener("click", function(event) {
+			event.stopPropagation();
 			random();
+		});
+		document.querySelector("main").addEventListener("click", function() {
+			let element = document.querySelector("div.message");
+			element.innerText = "Copied!";
+			element.style.color = "var(--orange)";
+			element.style.opacity = "1";
+			element.style.bottom = "-2em";
+			navigator.clipboard.writeText(location.href);
+			setTimeout(() => {
+				element.innerText = "Copy text";
+				element.removeAttribute("style");
+			}, 1000);
 		});
 	});
 });
