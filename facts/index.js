@@ -1,19 +1,10 @@
-var log = [
-	"%cHello! My name %cis illogicalapple.\n%cI hope you're enjoying this!\nGot an idea for a fact? You %ccan add it by going here: https://illogicalapple.github.io/completely-true-facts/add.",
-	"font-family: Roboto, sans-serif; font-size: 15px;", //styling
-	"font-family: Roboto, sans-serif; color: #4287f5; font-size: 15px;",
-	"font-family: Roboto, sans-serif; font-size: 15px;",
-	"font-family: Roboto, sans-serif; color: #4287f5; font-size: 15px;"
-];
-console.log(...log);
-window.onload = () => {
+addEventListener("load", function() {
 	const displayFact = (fact, index) => {
 		document.getElementsByClassName("id")[0].innerHTML = Number(index) + 1;
 		document.getElementsByClassName("container")[0].innerHTML = fact
 			.replaceAll("!", "</span>")
-			.replaceAll("*", "<span class='big blue'>")
-			.replaceAll("~", "<span class='blue'>")
-			.replaceAll("`", "<span class='italic blue'>");
+			.replaceAll(/[*`]/, "<span class='red'>")
+			.replaceAll("~", "<span style='color: var(--orange);'>")
 	}; 
 	var randomNumber = undefined;
 	const request = new Request("facts.json");
@@ -35,4 +26,4 @@ window.onload = () => {
 			random();
 		});
 	});
-};
+});
