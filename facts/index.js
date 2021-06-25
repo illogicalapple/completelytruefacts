@@ -32,9 +32,10 @@ addEventListener("load", function() {
 			element.style.color = "var(--orange)";
 			element.style.opacity = "1";
 			element.style.bottom = "-2em";
+			element.style.transition = "unset";
 			navigator.clipboard.writeText(location.href);
 			setTimeout(() => {
-				element.innerText = "Copy text";
+				element.innerText = "Copy link";
 				element.removeAttribute("style");
 			}, 1000);
 		});
