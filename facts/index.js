@@ -38,6 +38,11 @@ addEventListener("load", function() {
 				element.innerText = "Copy link";
 				element.removeAttribute("style");
 			}, 1000);
+			setTimeout(() => {
+				element.style.transition = "";
+				element.style.opacity = "0";
+				element.style.bottom = "-1em";
+			}, 700);
 		});
 	});
 });
