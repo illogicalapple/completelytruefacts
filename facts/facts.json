@@ -7,8 +7,8 @@
 			"~": "start blue",
 			"`": "start italic",
 			"more-information": [
-				"Statistics are big and blue (99%),",
-				"Things things do are normally blue (are normally blue),",
+				"Numbers are red,",
+				"Things are normally orange,",
 				"And italic is italic. Try to avoid that."
 			]
 		}
@@ -45,6 +45,8 @@
 		"Eggplants ~are the worst dish ever.!",
 		"Elephants ~have been around for *trillions of years.!!",
 		"Idiocy ~makes you *34%! smarter.!",
-		"You're ~dumb.!"
+		"You're ~dumb.!",
+		"Dinosaurs ~have been extinct for *almost a century.!!",
+		"Jupiter ~is the *second-biggest! continent on Earth.!"
 	]
 }
