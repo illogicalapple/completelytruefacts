@@ -4,4 +4,6 @@ body {
 }
 main {
 	font-size: 1.4em;
+	width: 75vw;
+	height: 50vh;
 }
